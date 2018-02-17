@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Footballexperience\Base\Api\Data\StadiumInterface" type="Footballexperience\Base\Model\Stadium"/>
+    <preference for="Footballexperience\Base\Api\Data\StadiumSearchResultsInterface" type="Footballexperience\Base\Model\StadiumSearchResults"/>
+    <preference for="Footballexperience\Base\Api\StadiumRepositoryInterface" type="Footballexperience\Base\Model\StadiumRepository"/>
+</config>
